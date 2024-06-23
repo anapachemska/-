@@ -1,0 +1,177 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    height: 873px;
+}
+.header{
+    background-color: black;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 117px;
+    border-bottom: .1rem solid rgba(255, 255, 255, .3)
+}
+.header .logo img{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 116px;
+    margin-left: 192px;
+    padding-top: 20px;
+}
+#topbarright ul li a{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#topbarright ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 26px;
+    padding-top: -20px;
+    padding-bottom: 14px
+}
+#topbarright ul {
+    margin-left: 38px;
+    margin-right: 306px;
+}
+#topbarleft img{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 116px;
+    margin-left: 192px;
+    padding-top: 20px;
+}
+.footer {
+    background-color: #111219;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer h3 {
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer p,
+.footer a {
+    font-size: 0.9em;
+    color: #bbb;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #777;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #bbb;
+}
+.gallery-naslov{
+    color: white;
+    margin-top: -466px;
+    padding-bottom: 70px;
+}
+.gallery-naslov h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: Garamond, serif;
+}
+.gallery-naslov h3{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+}
+.galerija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 681px 108px 0 108px;
+}
+.galerija .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.galerija .box .photo-box{
+    display: flex;
+    flex-direction: column;
+    width: 23.5%;
+}
+.galerija .box .photo-box img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+
+}
+.box .photo-box img{
+    height: 400px;
+    width: 350px;
+}
+.footer-contact span{
+    font-size: 11px;
+}
+.footer-links ul li a{
+    text-transform: uppercase;
+}

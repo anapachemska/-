@@ -1,0 +1,175 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    height: 908px;
+}
+.header{
+    background-color: black;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 117px;
+    border-bottom: .1rem solid rgba(255, 255, 255, .3)
+}
+.header .logo img{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 116px;
+    margin-left: 192px;
+    padding-top: 20px;
+}
+#topbarright ul li a{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#topbarright ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 26px;
+    padding-top: -20px;
+    padding-bottom: 14px
+}
+#topbarright ul {
+    margin-left: 38px;
+    margin-right: 306px;
+}
+#topbarleft img{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 116px;
+    margin-left: 192px;
+    padding-top: 20px;
+}
+.footer {
+    background-color: #111219;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 150px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer h3 {
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer p,
+.footer a {
+    font-size: 0.9em;
+    color: #bbb;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #777;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #bbb;
+}
+.pasii{
+    margin-top: 200px;
+}
+.pasiinaslov{
+    margin-left: 230px;
+}
+.pasiislika img{
+    display: inline-block;
+    float: right;
+    height: 625px;
+    margin-right: 200px;
+    margin-top: -78px;
+}
+body > section.pasii > div.pasiinaslov > p:nth-child(1){
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Garamond, serif;
+    line-height: 1.5;
+}
+body > section.pasii > div.pasiinaslov > p:nth-child(3),
+body > section.pasii > div.pasiinaslov > p:nth-child(4){
+    font-size: 19px;
+    color: white;
+    width: 500px;
+    padding-top: 50px;
+    font-family: Garamond, serif;
+}
+.pasiislika img{
+    display: inline-block;
+    float: right;
+    height: 490px;
+    margin-right: 285px;
+    margin-top: -413px
+}
+.pasii .pasiinaslov h2{
+    color: white;
+    font-size: 75px;
+    font-family: Garamond, serif;
+    width: 500px;
+}
+.footer-contact span{
+    font-size: 11px;
+}
+.footer-links ul li a{
+    text-transform: uppercase;
+}
